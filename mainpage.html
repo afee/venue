@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    font-family: "Lato", sans-serif;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.6s;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 16px;
+    margin-left: 50px;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 15px;}
+}
+</style>
+</head>
+<body bgcolor=" #d7dbdd ">
+<div style="background-color:  #abb2b9 ">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <br><br>
+  <a href="file:///home/neeru/Desktop/FOSS/trial.html">About</a>
+  <br><br>
+  <a href="file:///home/neeru/Desktop/FOSS/services.html">Services</a>
+  <br><br>
+  <a href="file:///home/neeru/Desktop/FOSS/contact.html">Contact</a>
+</div>
+
+<div id="main">
+ 
+  
+  <span style="font-size:15px;cursor:pointer" onclick="openNav()">&#9776; More</span>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<h1 align=center><font color=" #1c2833 ">BOOK YOUR VENUE</font></h1>
+
+<style>
+a:link, a:visited {
+    background-color: #660066;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color:#9966FF;
+}
+h1 {
+    text-shadow: 3px 2px green;
+}
+</style>
+
+<body><p align=center>
+<a href="file:///home/neeru/Desktop/FOSS/loginpage.html"  target="_blank">LOGIN</a>
+<a href="signup.html" target="_blank">SIGN UP</a></p>
+</body>
+</div>
+<div style="background-color:  #abb2b9 ">
+	<p style="color:#black" text-shadow: 3px 2px red;>Hello there...!!!! This website is specially for booking venues for different purposes like weddings, birthdays , conference ,meetings , workshops etc in Palakkad District.You can either book a venue or register your venue</p>
+	
+</div>
+</body>
+
+
+
+</html>
